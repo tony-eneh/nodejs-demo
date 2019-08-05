@@ -1,0 +1,30 @@
+{
+    "name": "nodejs-demo",
+    "version": "1.0.0",
+    "description": "A demo nodejs server for getting my hands dirty",
+    "main": "index.js",
+    "dependencies": {
+        "formidable": "^1.2.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tony-eneh/nodejs-demo.git"
+    },
+    "keywords": [
+        "nodejs",
+        "server",
+        "mysql",
+        "mongodb",
+        "simple"
+    ],
+    "author": "Tony Eneh",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/tony-eneh/nodejs-demo/issues"
+    },
+    "homepage": "https://github.com/tony-eneh/nodejs-demo#readme"
+}
