@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer');
+const { req, res } = require('./index');
 
 const mailer = () => {
     const transporter = nodemailer.createTransport({
@@ -22,6 +23,7 @@ const mailer = () => {
             console.log('error sending mail', err);
         } else {
             console.log('email sent', info.response);
+            console.log(res);
         };
     });
 
