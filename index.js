@@ -4,6 +4,7 @@ const fs = require('fs');
 const url = require('url');
 const formidable = require('formidable');
 const mailer = require('./mailer.js');
+const dbSetup = require('./db-setup');
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/html' });
