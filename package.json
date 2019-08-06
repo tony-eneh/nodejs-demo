@@ -4,7 +4,8 @@
     "description": "A demo nodejs server for getting my hands dirty",
     "main": "index.js",
     "dependencies": {
-        "formidable": "^1.2.1"
+        "formidable": "^1.2.1",
+        "nodemailer": "^6.3.0"
     },
     "devDependencies": {},
     "scripts": {

@@ -3,6 +3,7 @@ const http = require('http');
 const fs = require('fs');
 const url = require('url');
 const formidable = require('formidable');
+const mailer = require('./mailer.js');
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -39,6 +40,8 @@ const server = http.createServer((req, res) => {
                 res.end();
             });
         });
+    } else if (path == '/mailer') {
+        mailer();
     } else {
         res.writeHead(404, { 'Content-Type': 'text/html' });
         res.write('<h1>404 Error</h1> <p>cant find the requested url</p>')
