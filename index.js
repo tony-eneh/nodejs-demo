@@ -6,10 +6,7 @@ const formidable = require('formidable');
 const mailer = require('./mailer.js');
 const dbSetup = require('./db-setup');
 
-let out = {};
-
 const server = http.createServer((req, res) => {
-    out = { req, res };
     res.writeHead(200, { 'Content-Type': 'text/html' });
     const path = url.parse(req.url).pathname;
     if (path == '/') {
@@ -46,8 +43,6 @@ const server = http.createServer((req, res) => {
         });
     } else if (path == '/mailer') {
         mailer();
-        console.log('req', req, )
-        console.log('res', res)
     } else {
         res.writeHead(404, { 'Content-Type': 'text/html' });
         res.write('<h1>404 Error</h1> <p>cant find the requested url</p>')
@@ -55,5 +50,3 @@ const server = http.createServer((req, res) => {
     }
 });
 server.listen(3000, (console.log('listening at port 3000')));
-
-module.exports = out;
