@@ -10,6 +10,10 @@ MongoClient.connect(url, function(err, db) {
     dbo.createCollection('student_records', (err, collection) => {
         if (err) throw err;
         console.log("Collection created", collection);
+        collection.insertOne({ name: 'Odion Ighalo', age: '22' }, (err, result) => {
+            if (err) throw err;
+            console.log('document added', result);
+        });
         db.close();
     });
 
