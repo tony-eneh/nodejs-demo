@@ -14,6 +14,16 @@ MongoClient.connect(url, function(err, db) {
             if (err) throw err;
             console.log('document added', result);
         });
+
+        collection.insertMany([
+            { name: 'Anthony Joshua', age: 33 },
+            { name: 'Ike Mazeli', age: 44 },
+            { name: 'Ik Ogbonna', age: 23 }
+        ], (err, result) => {
+            if (err) throw err;
+            console.log('Multiple documents inserted', result);
+        });
+
         db.close();
     });
 
