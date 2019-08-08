@@ -8,8 +8,15 @@ const con = mysql.createConnection({
     database: "mydb"
 });
 
-const deleteRecords = () => {
+const updateTable = () => {};
 
+const deleteRecords = () => {
+    const sql = "DELETE FROM student_records WHERE name LIKE 'sam%'";
+    con.query(sql, function(err, result) {
+        if (err) throw err;
+        console.log('Query was successfully executed', result);
+        updateTable();
+    });
 };
 
 const insertRecords = () => {
