@@ -6,6 +6,8 @@
     "dependencies": {
         "formidable": "^1.2.1",
         "mysql": "^2.17.1",
+        "log4js": "^5.1.0",
+        "mongodb": "^3.3.0-beta2",
         "nodemailer": "^6.3.0"
     },
     "devDependencies": {},

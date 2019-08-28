@@ -1,0 +1,16 @@
+[2019-08-28T06:33:35.570] [TRACE] nsibull - this is a trace message
+[2019-08-28T06:33:35.573] [DEBUG] nsibull - Some debug messages
+[2019-08-28T06:33:35.573] [INFO] nsibull - info message
+[2019-08-28T06:33:35.573] [WARN] nsibull - be warned
+[2019-08-28T06:33:35.573] [ERROR] nsibull - an error has occurred
+[2019-08-28T06:33:35.573] [FATAL] nsibull - this is a fatal error!
+[2019-08-28T06:33:35.573] [MARK] nsibull - this is the 'mark' logging level
+[2019-08-28T06:33:35.573] [NSIBULL] nsibull - this is a custom logging level called nsibull
+[2019-08-28T06:36:34.851] [TRACE] nsibull - this is a trace message
+[2019-08-28T06:36:34.854] [DEBUG] nsibull - Some debug messages
+[2019-08-28T06:36:34.854] [INFO] nsibull - info message
+[2019-08-28T06:36:34.854] [WARN] nsibull - be warned
+[2019-08-28T06:36:34.854] [ERROR] nsibull - an error has occurred
+[2019-08-28T06:36:34.854] [FATAL] nsibull - this is a fatal error!
+[2019-08-28T06:36:34.854] [MARK] nsibull - this is the 'mark' logging level
+[2019-08-28T06:36:34.854] [NSIBULL] nsibull - this is a custom logging level called nsibull
