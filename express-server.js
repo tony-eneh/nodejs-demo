@@ -4,7 +4,7 @@ const app = express();
 
 const model = {
     getUsers: (callback) => {
-        setTimeout(callback(new Error('some cooked up db error'), [
+        setTimeout(callback(null, [
             { name: 'Chibuike Godson' },
             { name: 'Kingsley Clems' },
             { name: 'Ihechi Ndukwe' }
