@@ -25,4 +25,4 @@ http.createServer(function(req, res) {
         res.writeHead(200);
         res.end('static file maybe');
     }
-}).listen(1337);
+}).listen(process.env.PORT || 1337);
