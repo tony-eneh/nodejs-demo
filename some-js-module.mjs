@@ -1,1 +1,1 @@
-export const EWORISM = 'idah';
+export const EWORISM = 'idah'
