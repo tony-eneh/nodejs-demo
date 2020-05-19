@@ -5,13 +5,17 @@ require('chai').should();
 
 
 describe('db requests', function(){
-    describe('connection', function(){
-        it('should successfully connect with correct parameters', function(done){
-            con.connect(done);
-        })
-    })
-
     describe('CRUD requests', function(){
-        it('insert hardcoded records into db')
+        it('inserts hardcoded records into db', function(done){
+            insertRecords(done);
+        })
+
+        it('updates data in db', function update(done){
+            updateTable(done);
+        })
+
+        it('deletes records from db successfully', function(done){
+            deleteRecords(done);
+        })
     })
 })
