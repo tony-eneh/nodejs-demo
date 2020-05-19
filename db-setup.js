@@ -8,18 +8,19 @@ const con = mysql.createConnection({
     database: "mydb"
 });
 
-const updateTable = () => {};
+const updateTable = (done) => {done();};
 
-const deleteRecords = () => {
+const deleteRecords = (done) => {
     const sql = "DELETE FROM student_records WHERE name LIKE 'sam%'";
     con.query(sql, function(err, result) {
         if (err) throw err;
         console.log('Query was successfully executed', result);
-        updateTable();
+        // updateTable();
+        done();
     });
 };
 
-const insertRecords = () => {
+const insertRecords = (done) => {
     const sql = "INSERT INTO student_records (name, age) VALUES ?";
     const values = [
         ['ike anyika', 23],
@@ -33,7 +34,8 @@ const insertRecords = () => {
     con.query(sql, [values], function(err, result) {
         if (err) throw err;
         console.log('Query was successfully executed', result);
-        deleteRecords();
+        // deleteRecords();
+        done();
     });
 };
 
@@ -44,7 +46,7 @@ con.connect(function(err) {
     con.query(sql, function(err, result) {
         if (err) throw err;
         console.log("Table was successfully created");
-        insertRecords();
+        // insertRecords();
         console.log(result);
     });
 });
