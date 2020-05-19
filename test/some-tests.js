@@ -5,6 +5,27 @@ require('chai').should();
 
 
 describe('db requests', function(){
+    // prevent console.log() for successful tests
+    let mainConsoleLog = console.log;
+    let output;
+    this.beforeEach(()=>{
+        console.log = (msg)=>{
+            output = `${msg}\n`;
+        }
+    })
+
+    this.afterEach(()=>{
+        if(this.ctx.currentTest.state === 'failed'){
+            // logout the error message
+            mainConsoleLog(output);
+        }
+    })
+
+    this.afterAll(()=>{
+        // undo hidden console.log
+        console.log = mainConsoleLog;
+    })
+
     describe('CRUD requests', function(){
         it('inserts hardcoded records into db', function(done){
             insertRecords(done);
