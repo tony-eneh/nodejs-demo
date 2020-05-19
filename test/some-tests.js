@@ -12,9 +12,6 @@ describe('db requests', function(){
     })
 
     describe('CRUD requests', function(){
-        it('insert hardcoded records into db', function(done){
-            this.timeout(10000)
-            // insertRecords.should
-        })
+        it('insert hardcoded records into db')
     })
 })
