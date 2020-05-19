@@ -48,3 +48,5 @@ con.connect(function(err) {
         console.log(result);
     });
 });
+
+module.exports = {con, updateTable, deleteRecords, insertRecords};
