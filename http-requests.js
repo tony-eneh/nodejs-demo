@@ -1,9 +1,9 @@
-var http = require('http');
+var https = require('https');
 
-//The url we want is: 'www.random.org/integers/?num=1&min=1&max=10&col=1&base=10&format=plain&rnd=new'
+//The url we want'
 var options = {
-  host: 'www.random.org',
-  path: '/integers/?num=1&min=1&max=10&col=1&base=10&format=plain&rnd=new'
+  host: 'ven10.co',
+  path: '/assessment/filter.json'
 };
 
 callback = function(response) {
@@ -20,4 +20,4 @@ callback = function(response) {
   });
 }
 
-http.request(options, callback).end();
+https.request(options, callback).end();
