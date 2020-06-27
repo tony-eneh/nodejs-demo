@@ -8,108 +8,108 @@ const model = {
   channels: [
     {
       id: "jgoi49sk894uhk933h94hg1",
-      url: "https://bitmovin-a.akamaihd.net/content/playhouse-vr/mpds/105560.mpd",
-      name: "Bloomberg TV Asia (HK)!",
-      description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+      url:
+        "http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8?sd=10&rebase=on?iptvgratis?chile.m3u8",
+      name: "Real Madrid TVS",
+      description: "",
     },
     {
       id: "jgoi49sk894uhk933h94hg2",
-      url: "http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8",
+      url:
+        "http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8",
       name: "BBC World News!",
       description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+        "",
     },
     {
       id: "jgoi49sk894uhk933h94hg3",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Nwa nigga!",
-      description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+      url:
+        "http://rbetis-hls.flumotion.com/rbetis/live/chunklist.m3u8?iptvgratis?chile.m3u8",
+      name: "Betis tv",
+      description: "",
     },
     {
       id: "jgoi49sk894uhk933h94hg4",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Heyoo!",
-      description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+      url:
+        "http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0300_av-b.m3u8?iptvgratis?chile.m3u8",
+      name: "Sevilla FC",
+      description: "",
     },
     {
       id: "jgoi49sk894uhk933h94hg5",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Dats we roh!",
-      description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+      url:
+        "http://173.236.10.10:1935/dgrau/dgrau/live.m3u8?iptvgratis?chile.m3u8",
+      name: "All Sports",
+      description: "",
     },
     {
       id: "jgoi49sk894uhk933h94hg6",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Enweee!",
-      description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+      url:
+        "http://evo.eltelon.com:1935/trailertv/smil:trailertv.smil/playlist.m3u8",
+      name: "Trailer TV",
+      description: "",
     },
     {
       id: "jgoi49sk894uhk933h94hg7",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "O nweee buru ya!",
-      description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+      url:
+        "http://cl-a1-p-e-tz2.cdn.mdstrm.com/live-stream/591f607e06b52d200a6066ea/playout/index-v1-a1.m3u8?",
+      name: "TVN Kids",
+      description: "",
     },
     {
       id: "jgoi49sk894uhk933h94hg8",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Chineke Umunwanyi eeh!",
-      description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+      url: "http://ar.watcha.live/ch16/hi.m3u8",
+      name: "Tateti",
+      description: "",
     },
     {
       id: "jgoi49sk894uhk933h94hg9",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Naso!",
+      url: "http://v3.tustreaming.cl:80/tvpop/live1/index.m3u8",
+      name: "TV Pop",
       description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+        "",
     },
     {
       id: "jgoi49sk894uhk933h94hg10",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Looks at you!",
+      url: "https://593b04c4c5670.streamlock.net/8702/8702/chunklist.m3u8",
+      name: "Mundo Auto Tv",
       description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+        "",
     },
     {
       id: "jgoi49sk894uhk933h94hg11",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Plans and bensicle!",
+      url: "http://149.56.17.92:1935/8404/8404/master.m3u8",
+      name: "Arab Tv",
       description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+        "",
     },
     {
       id: "jgoi49sk894uhk933h94hg12",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Aru na aru!",
+      url: "http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/index_1_av-b.m3u8?iptvgratis?chile.m3u8",
+      name: "Atreseries",
       description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+        "",
     },
     {
       id: "jgoi49sk894uhk933h94hg13",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Egwu Diya!",
+      url: "http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/index_1_av-b.m3u8?iptvgratis?chile.m3u8",
+      name: "MEGA",
       description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+        "",
     },
     {
       id: "jgoi49sk894uhk933h94hg14",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Egwu Diya!",
+      url: "http://runway.videocdn.scaleengine.net/runway-iphone/play/runway/chunklist.m3u8",
+      name: "Runway Fashion",
       description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+        "",
     },
     {
       id: "jgoi49sk894uhk933h94hg15",
-      url: "https://ewoo.com/egwu-diya.m3u8",
-      name: "Egwu Diya!",
+      url: "http://d2ai41bknpka2u.cloudfront.net/live/iss.stream_source/playlist.m3u8",
+      name: "NASA Space Station",
       description:
-        "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
+        "",
     },
   ],
 
