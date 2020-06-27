@@ -16,7 +16,7 @@
     "devDependencies": {},
     "scripts": {
         "test": "mocha",
-        "start": "node simple-web-server.js"
+        "start": "node simple-web-server-for-cool-tv.js"
     },
     "repository": {
         "type": "git",

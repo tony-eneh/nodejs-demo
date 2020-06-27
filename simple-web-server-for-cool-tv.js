@@ -8,7 +8,7 @@ const model = {
   channels: [
     {
       id: "jgoi49sk894uhk933h94hg1",
-      url: "http://45.126.83.51/uq2663/h/h03/index.m3u8",
+      url: "https://bitmovin-a.akamaihd.net/content/playhouse-vr/mpds/105560.mpd",
       name: "Bloomberg TV Asia (HK)!",
       description:
         "ipsum lorem est in hoc nihi et haca at deoun git ata arakapatune egosum echial mongoose mongo node express hapi mysql in suru suru ewooo chai.",
