@@ -1,9 +1,13 @@
 const app = require("express")();
 
-// enable cross origin access
+console.log("image-server page actually ran");
 
-const cors = require("cors");
-app.use(cors());
+// enable cross origin access
+app.use((req, res, next) => {
+  console.log("enable access control middleware was called");
+  res.set("Access-Control-Allow-Origin", "*");
+  return next();
+});
 
 const images = [
   "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png",
@@ -28,6 +32,7 @@ const images = [
 ];
 
 app.get("/images", (req, res) => {
+  console.log("image was actually fetched");
   res.status(200).send(images);
 });
 
