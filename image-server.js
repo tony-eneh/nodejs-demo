@@ -1,5 +1,10 @@
 const app = require("express")();
 
+// enable cross origin access
+
+const cors = require("cors");
+app.use(cors());
+
 const images = [
   "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png",
   "https://homepages.cae.wisc.edu/~ece533/images/baboon.png",
