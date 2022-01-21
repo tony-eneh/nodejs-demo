@@ -6,7 +6,7 @@
     "dependencies": {
         "chai": "^4.2.0",
         "formidable": "^1.2.1",
-        "log4js": "^5.1.0",
+        "log4js": "^6.4.0",
         "mocha": "^7.1.2",
         "mongodb": "^3.3.0-beta2",
         "mongoose": "^5.7.1",
